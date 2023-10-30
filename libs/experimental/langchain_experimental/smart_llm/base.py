@@ -214,7 +214,7 @@ class SmartLLMChain(Chain):
                     HumanMessagePromptTemplate,
                     "You are a researcher tasked with investigating the "
                     f"{self.n_ideas} response options provided. List the flaws and "
-                    "faulty logic of each answer options. Let'w work this out in a step"
+                    "faulty logic of each answer options. Let's work this out in a step"
                     " by step way to be sure we have all the errors:",
                 ),
             ]
